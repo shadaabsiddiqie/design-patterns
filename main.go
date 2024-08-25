@@ -1,12 +1,10 @@
 package main
 
 import (
-	"fmt"
-
-	"patterns.com/design-patterns/singleton"
+	"patterns.com/design-patterns/factory"
 )
 
 func main() {
-	singleton.CreatAnSingletonObject()
-	fmt.Print("working")
+	// singleton.CreatAnSingletonObject()
+	factory.FactoryMethodRun()
 }
